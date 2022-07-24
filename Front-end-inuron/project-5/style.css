@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 120px;
+    padding-right: 80px;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+}
+
+.line {
+    border-left: 3px solid #fff;
+    height: 40px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+}
+
+.grow-list {
+    flex: 1;
+}
+
+.button-small {
+    font-size: 13px;
+    font-family: "Poppins";
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ba0cc5;
+    color: #fff;
+}
+
+.hero {
+	text-align: center;
+	padding: 200px 0;
+
+}
+
+.hero-heading {
+	margin: 0 auto;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 54px;
+	max-width: 700px;
+}
+
+.hero p {
+	margin-top: 0;
+	color: #fff;
+	font-size: 18px;
+}
+
+.bg-image {
+    background-image: url(./assets/bg.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-large {
+	background-color: #ba0cc5;
+	color: #fff;
+	border: none;
+	padding: 10px 25px;
+	font-size: 14px;
+	border-radius: 5px;
+	margin: 40px 0;
+}
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+  }
+  
+  @media (min-width: 576px) {
+    .container, .container-sm {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+    .list {
+        
+        width: 600px;
+        justify-content: space-evenly;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+      max-width: 1140px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+      max-width: 1340px;
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+      max-width: 1540px;
+    }
+  }
